@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 namespace MyNotes.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class NotesController : ControllerBase
 {
 
